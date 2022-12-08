@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* sakura ramen - header */
+
+.header {
+    background-image: url(img/bgr1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway-bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar-container a:hover {
+    font-weight: bold;
+    text-decoration-color: #9a0b10;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    transition: 0.3s;
+    transition: 250ms ease-in-out;
+}
+
+
+.navbar-container a:last-child {
+    background: #9a0b10;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+}
+
+.navbar-container a:last-child:hover {
+    background-color: #e61018;
+    transition: 0.3s;
+}
+
+.phone {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.3rem;
+    position: relative;
+    top: 5px;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    font-size: 7.5rem;
+    margin: 0 0 0 0;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* how to order - 1. section */
+
+.order-section {
+    text-transform: uppercase;
+    font-family: 'Economica-bold', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.heading-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ad0202;
+    text-transform: uppercase;
+    font-family: 'Economica-bold', sans-serif;
+}
+
+.noodles {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.noodles p {
+    margin-bottom: 70px;
+    margin-top: -0px;
+}
+
+/* menu - 2. section */
+
+.menu-section {
+    text-transform: uppercase;
+    font-family: 'Economica-bold', sans-serif;
+    font-weight: bold;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+
+table {
+    margin-bottom: 10rem;
+}
+
+.table-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.table-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.menu-section img {
+    padding-right: 60px;
+}
+
+.menu-section caption {
+    font-family: 'Economica-bold', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-section tbody {
+    font-family: 'Raleway-bold', sans-serif;
+    color: #5c5c5b;
+    font-size: 1.5rem;
+}
+
+.food-price {
+    padding-left: 200px;
+}
+
+tr td:first {
+    padding-right: 32px;
+}
+
+.img-menu {
+    height: 17rem;
+    width: 17rem;
+}
+
+/* Location */
+
+.munich {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+.munich img {
+    width: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 450px;
+}
+
+/* footer */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 85px;
+}
+
+.saklogo {
+    height: 40px;
+    display: flex;
+    margin-top: 0;
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+
+.socialmedia img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+@media (max-width: 900px) {
+    body {
+        max-width: 100%;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .subheading {
+        font-size: 15px;
+    }
+
+    .navbar img {
+        position: absolute;
+        top: 30px;
+        left: 35px;
+    }
+
+    .noodles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        overflow: hidden;
+    }
+}
+    
+
+
+
+
+
+
+
+
